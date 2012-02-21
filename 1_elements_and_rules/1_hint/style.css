@@ -1,0 +1,16 @@
+body {
+  width: 400px;
+  margin: 28px;
+  
+  font-family: helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+img {
+  width: 250px;
+}

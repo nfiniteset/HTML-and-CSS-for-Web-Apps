@@ -1,0 +1,39 @@
+/* Button styles */
+
+/* Reset default a styles */ 
+a.btn {
+  display: block;
+  
+  color: black;
+  
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Reset default input and button styles */ 
+input.btn,
+button.btn {
+  padding: 0;
+  
+  cursor: pointer;
+  
+  font-family: inherit;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+
+  border: none;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #aaa;
+  background-color: #ccc;
+  -webkit-border-radius: 3px;
+  
+  line-height: 40px;
+  font-size: 12px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}

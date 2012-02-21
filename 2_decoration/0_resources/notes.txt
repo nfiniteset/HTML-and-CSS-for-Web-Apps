@@ -1,0 +1,33 @@
+Introduction to HTML
+====================
+
+HTML concepts introduced
+------------------------
+
+- Tags
+  - div
+  - span
+  
+- Attributes
+  - class
+  
+CSS concepts introduced
+-----------------------
+
+- Hexadecimal colors
+  
+- Selectors
+  - class
+
+- Properties
+  - margin
+  - padding
+  
+  - float
+
+  - border-color
+  - border-style
+  - border-width
+    
+  - background-color
+  - background-image

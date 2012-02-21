@@ -1,0 +1,39 @@
+Introduction to HTML
+====================
+
+HTML concepts
+-------------
+
+- Document structure
+  - doctype
+  - html
+  - head
+  - body
+
+- Elements
+  - <tag attribute="value">content</tag>
+
+- Tags
+  - h1, h2, etc.
+  - p
+  - a
+  - img
+  
+- Attributes
+  - img attributes
+    - src
+    - alt
+  - a attributes
+    - href
+  
+CSS concepts
+------------
+  
+- Selectors
+  - tag selector
+
+- Rules
+  - width
+  - font-samily
+  - font-size
+  - line-height

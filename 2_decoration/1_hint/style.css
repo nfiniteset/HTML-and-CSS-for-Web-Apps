@@ -1,0 +1,55 @@
+body {
+  margin: 36px auto;
+  width: 600px;
+  
+  background-image: url('ricepaper2.png');
+  color: #423d3a;
+
+  font-family: Palatino, Palatino Linotype, Book Antiqua, serif;
+  font-size: 18px;
+  line-height: 27px;
+  
+}
+
+h1 {
+  font-size: 54px;
+  line-height: 54px;
+  text-align: center;
+}
+
+h1, .pullquote, a {
+  color: #5d290a;
+}
+
+p {
+  width: 500px;
+}
+
+.cap {
+  font-size: 36px;
+}
+
+.pullquote {
+  float: right;
+  width: 300px;
+  margin: 18px;
+  padding: 18px;
+  
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e9e4e1;
+  background-color: white;
+  
+  font-size: 36px;
+  line-height: 45px;
+}
+
+.credit {
+  color: #8e6e5a;
+}
+
+img {
+  float: left;
+  margin-right: 18px;
+  height: 100px;
+}

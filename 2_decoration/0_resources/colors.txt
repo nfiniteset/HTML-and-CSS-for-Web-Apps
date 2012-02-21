@@ -1,0 +1,14 @@
+Colors
+======
+
+Warm dark     (body)
+#423d3a
+
+Warm medium   (headlines, links, and pull quotes)
+#5d290a
+
+Warm light    (credits, pull quote border)
+#8e6e5a
+
+Neutral       (Pull quote border)
+#e9e4e1

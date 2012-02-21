@@ -1,0 +1,104 @@
+
+/* Undecorated list */
+
+.undecorated {
+  list-style: none;
+  padding: 0;
+}
+
+.undecorated li {
+  margin-bottom: 18px;
+}
+
+/* Fancy list */
+
+.fancy {
+  list-style: none;
+}
+
+.fancy li {
+  padding-left: 24px;
+
+  background-image: url(fancy_bullet.png);
+  background-position: left 11px;
+  background-repeat: no-repeat;
+  
+  line-height: 36px;
+  font-family: Palatino, Palatino Linotype, Book Antiqua, serif;
+  font-size: 24px;
+}
+
+.fancy a {
+  text-decoration: none;
+  color: #582e00;
+}
+
+.fancy a:hover {
+  text-decoration: underline;
+}
+
+/* Source list */
+
+.source-list {
+  width: 360px;
+  padding: 0;
+
+  list-style: none;
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
+
+.source-list a {
+  display: block;
+  padding-left: 20px;
+  
+  text-decoration: none;
+  color: #333;
+}
+
+.source-list a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.source-list a:active {
+  background-color: blue;
+  color: white;
+}
+
+.source-list li {
+  height: 50px;
+  line-height: 50px;
+
+  border-bottom: 1px solid #ccc;
+}
+
+/* Nav list */
+
+.nav {
+  padding: 0;
+  height: 40px;
+  overflow: hidden;
+  
+  background-color: #333;
+  list-style: none;
+}
+
+.nav a {
+  display: block;
+  padding: 0 20px;
+  
+  color: #ddd;
+  border-right: 1px solid #444;
+  
+  text-decoration: none;
+  line-height: 40px;
+}
+.nav a:hover {
+  color: white;
+  background-color: black;
+}
+
+.nav li {
+  float: left;
+}

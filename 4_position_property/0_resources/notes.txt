@@ -1,0 +1,18 @@
+Position
+====================
+
+HTML concepts
+-------------
+
+  
+CSS concepts
+------------
+
+- Rules
+  - position: static
+  - position: absolute
+  - position: fixed
+  - position: relative
+
+Feedback tab fixed to size of page,
+clicking it reveals a feedback form modal.
