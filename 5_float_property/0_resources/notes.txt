@@ -1,0 +1,18 @@
+Float property
+==============
+
+HTML concepts
+-------------
+
+  
+CSS concepts
+------------
+
+- Rules
+  - float: left
+  - float: right
+  - clear: left
+  - clear: right
+  - clear: both
+  
+- Clearfix
