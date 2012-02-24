@@ -4,11 +4,21 @@ Introduction to HTML
 HTML concepts
 -------------
 
+- Elements
+  - span tag
   
 CSS concepts
 ------------
+
+- Selectors
+  - Hover
 
 - Rules
   - display: inline
   - display: block
   - display: none
+
+- Inline comments
+- Block comments
+
+- Negative margins

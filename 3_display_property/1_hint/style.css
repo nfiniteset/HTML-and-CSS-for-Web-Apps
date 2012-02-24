@@ -1,30 +1,63 @@
+/* Typography and spacing */
+
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: monospace;
+  line-height: 24px;
 }
 
-.bibliography {
-
+h1, .source {
+  padding-left: 60px;
+  font-size: 16px;
+  margin-bottom: 24px;
 }
 
-.sources {
-}
 
-.source {
-  margin-bottom: 12px;  
-}
+/* MLA styling */
 
 .book .title {
   text-decoration: underline;
 }
 
-.journal .title {
+.article .title {
   font-style: oblique;
 }
 
-.author {
+/* display: block experiments */
+
+.source:hover {
+  background-color: #ffe;
+}
+
+span:hover {
+  background-color: #efe;
+}
+
+.author,
+.title {
+  display: block;
+}
+
+/* Final touches */
+
+.title {
   font-weight: bold;
 }
 
-.author, .title {
-  display: block;
+.article .title {
+  margin-left: -10px;
+}
+
+.detail {
+  color: #999;
+}
+
+
+/* display: none experiments */
+
+.detail {
+  //display: none;
+}
+
+.source:hover .detail {
+  //display: block;
 }
