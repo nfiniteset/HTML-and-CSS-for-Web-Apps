@@ -1,0 +1,30 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+.bibliography {
+
+}
+
+.sources {
+}
+
+.source {
+  margin-bottom: 12px;  
+}
+
+.book .title {
+  text-decoration: underline;
+}
+
+.journal .title {
+  font-style: oblique;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.author, .title {
+  display: block;
+}
