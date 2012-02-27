@@ -10,6 +10,8 @@ HTML concepts
 CSS concepts
 ------------
 
+- Nested selectors
+
 - Selectors
   - Hover
 

@@ -1,18 +1,43 @@
-/* Typography and spacing */
+/* Page layout and style */
 
 body {
+  background-image: url('wood_pattern.png');
+  color: #404040;
+}
+
+.bibliography {
+  width: 480px;
+  height: 680px;
+  margin: 48px auto;
+  padding: 60px;
+
+  box-shadow: 0 1px 3px rgba(0,0,0,.4);
+  background-image: url('handmadepaper.png');
+  border-top: 1px solid white;
+}
+
+
+/* Typography */
+
+body {
+  background-image: url('wood_pattern.png');
+  color: #404040;
+  
   font-family: monospace;
   line-height: 24px;
 }
 
 h1, .source {
-  padding-left: 60px;
   font-size: 16px;
   margin-bottom: 24px;
 }
 
 
 /* MLA styling */
+
+.title {
+  font-weight: bold;
+}
 
 .book .title {
   text-decoration: underline;
@@ -22,14 +47,15 @@ h1, .source {
   font-style: oblique;
 }
 
+
 /* display: block experiments */
 
 .source:hover {
-  background-color: #ffe;
+  background-color: #ffd;
 }
 
 span:hover {
-  background-color: #efe;
+  background-color: #cfc;
 }
 
 .author,
@@ -37,11 +63,8 @@ span:hover {
   display: block;
 }
 
-/* Final touches */
 
-.title {
-  font-weight: bold;
-}
+/* Final touches */
 
 .article .title {
   margin-left: -10px;
