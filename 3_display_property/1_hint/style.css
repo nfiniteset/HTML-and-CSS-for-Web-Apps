@@ -51,11 +51,11 @@ h1, .source {
 /* display: block experiments */
 
 .source:hover {
-  background-color: #ffd;
+  //background-color: #ffd;
 }
 
 span:hover {
-  background-color: #cfc;
+  //background-color: #cfc;
 }
 
 .author,
@@ -82,5 +82,5 @@ span:hover {
 }
 
 .source:hover .detail {
-  //display: block;
+  //display: inline;
 }
