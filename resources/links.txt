@@ -3,3 +3,6 @@ http://www.opera.com/company/education/curriculum/
 
 Common fonts to all versions of Windows & Mac equivalents
 http://www.ampsoft.net/webdesign-l/WindowsMacFonts.html
+
+Subtle Patterns
+http://subtlepatterns.com/
