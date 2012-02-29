@@ -1,0 +1,32 @@
+Super Secret Private Beta blog
+==============================
+
+Credits:
+Articles belong to Wired Epicenter blog. 
+http://www.wired.com/epicenter/
+
+Photo belongs to Shaan Hurley.
+http://www.flickr.com/photos/btl/6938678863/
+
+
+HTML concepts
+-------------
+
+- Tags
+  - form
+  - input type="email"
+  - input type="submit"
+  
+- Encoding special characters
+  
+CSS concepts
+------------
+  
+- Custom font
+
+- Rules
+  - border-radius
+  - box-shadow
+  - text-shadow
+  
+- Gradients
