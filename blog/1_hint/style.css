@@ -16,15 +16,7 @@ body {
 }
 
 
-/* Header */
-
-.topbar {
-  height: 60px;
-}
-
-.brand {
-  margin: 0;
-}
+/* Topbar */
 
 .topbar {
   height: 60px;
@@ -41,6 +33,10 @@ body {
   line-height: 68px;
   font-family: Ostrich Sans, helvetica, sans-serif;
   font-size: 36px;
+}
+
+.brand {
+  margin: 0;
 }
 
 
