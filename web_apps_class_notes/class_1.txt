@@ -1,0 +1,48 @@
+CSS for Web Apps
+================
+
+Class 1
+-------
+
+
+Intro
+  - Name
+  - Front-end experience
+  
+Preview
+  - Markup
+  - CSS
+  - Layout models
+    - Display Block, Inline, and None
+    - Float and Clear
+    - Position Static, Absolute, Relative, and Fixed
+    - Making things dissapear
+  - A hint of JavaScript
+  
+Review
+  - HTML
+    - element
+    - tags
+    - tagName
+    - attributes
+      - class
+      - id
+    
+  - CSS
+    - tag selector
+    - class selector
+    - id selector
+    - property
+    
+Web inspector
+
+Block layouts
+  
+Floating block layout
+  - Layouts 1-3
+  
+Homework
+  - Floating block layout
+
+Bonus homework
+  - 

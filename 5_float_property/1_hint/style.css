@@ -1,0 +1,208 @@
+/* layout 1 */
+#layout-1 .piece-1 {
+  height: 200px;
+}
+
+#layout-1 .piece-2 {
+  height: 100px;
+}
+
+
+
+/* layout 2 */
+#layout-2 .piece-1 {
+  float: left;
+  height: 300px;
+  width: 100px;
+}
+
+#layout-2 .piece-2 {
+  float: left;
+  height: 300px;
+  width: 200px;
+}
+
+#layout-2 .piece-3 {
+  height: 300px;
+}
+
+
+
+/* layout 3 */
+#layout-3 .piece-1 {
+  height: 100px;
+}
+
+#layout-3 .piece-2 {
+  float: left;
+  height: 200px;
+  width: 100px;
+}
+
+#layout-3 .piece-3 {
+  height: 200px;
+}
+
+
+
+/* layout 4 */
+#layout-4 .piece-1 {
+  height: 100px;
+}
+
+#layout-4 .piece-2 {
+  float: left;
+  height: 100px;
+  width: 200px;
+}
+
+#layout-4 .piece-3 {
+  height: 100px;
+}
+
+#layout-4 .piece-4 {
+  clear: left;
+  height: 100px;
+}
+
+
+
+/* layout 5 */
+#layout-5 .piece-1 {
+  height: 100px;
+}
+
+#layout-5 .piece-2 {
+  float: left;
+  height: 200px;
+  width: 100px;
+}
+
+#layout-5 .piece-3 {
+  height: 100px;
+}
+
+#layout-5 .piece-4 {
+  height: 100px;
+}
+
+
+
+/* layout 6 */
+#layout-6 .piece-1 {
+  height: 100px;
+}
+
+#layout-6 .piece-2 {
+  float: left;
+  height: 200px;
+  width: 100px;
+}
+
+#layout-6 .piece-3 {
+  float: right;
+  height: 200px;
+  width: 100px;
+}
+
+#layout-6 .piece-4 {
+  height: 100px;
+}
+
+#layout-6 .piece-5 {
+  height: 100px;
+}
+
+
+
+/* layout 7 */
+#layout-7 .piece-1 {
+  height: 100px;
+}
+
+#layout-7 .piece-2 {
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+#layout-7 .piece-3 {
+  float: left;
+  height: 100px;
+  width: 200px;
+}
+
+#layout-7 .piece-4 {
+  height: 100px;
+}
+
+#layout-7 .piece-5 {
+  clear: left;
+  height: 100px;
+}
+
+
+
+/* layout 8 */
+#layout-8 .piece-1 {
+  float: left;
+  height: 300px;
+  width: 100px;
+}
+
+#layout-8 .piece-2 {
+  height: 100px;
+}
+
+#layout-8 .piece-3 {
+  float: left;
+  height: 200px;
+  width: 100px;
+}
+
+#layout-8 .piece-4 {
+  height: 100px;
+}
+
+#layout-8 .piece-5 {
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+#layout-8 .piece-6 {
+  height: 100px;
+}
+
+
+
+/* layout 9 */
+#layout-9 .piece-1 {
+  float: right;
+  height: 300px;
+  width: 100px;
+}
+
+#layout-9 .piece-2 {
+  height: 100px;
+}
+
+#layout-9 .piece-3 {
+  float: left;
+  height: 200px;
+  width: 100px;
+}
+
+#layout-9 .piece-4 {
+  float: right;
+  height: 200px;
+  width: 100px;
+}
+
+#layout-9 .piece-5 {
+  height: 100px;
+}
+
+#layout-9 .piece-6 {
+  height: 100px;
+}
