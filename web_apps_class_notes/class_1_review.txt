@@ -1,0 +1,87 @@
+Hello all,
+
+I want to leave you with a reminder of the concepts we covered tonight—and we covered a lot!
+
+You may find it helpful to review this stuff every couple of days.
+Keep the concepts fresh in mind.
+
+And practice! That's the only real way of improving!
+
+
+Elements
+=======
+
+We reviewed that HTML pages are composed of elements.
+Elements consist of an opening tag, a closing tag, and content.
+An elements' content may be text, or other elements, or both.
+Opening and closing tags have matching tag names.
+Elements may also have attributes.
+
+Here's what an element looks like:
+<p id="intro" class="pullquote">It was the best of times, it was the worst of times.</p>
+
+This...........................................................is the element's:
+<p>                                                           opening tag
+</p>                                                         closing tag
+p                                                               tag name
+id="intro" class="pullquote"         attributes
+intro                                                       id
+pullquote                                               class
+It was the best...                             content
+
+
+Id and class
+=========
+
+Id and class are two common and useful attributes.
+Classes may describe the 'kind of thing' an element is— 
+what conceptual set it belongs to.
+Classes may also be used to describe the state an element is in—
+a selected item in a list may be assigned a class of "selected".
+Elements may have any number of classes, separated by spaces.
+
+The id attribute uniquely identifies an element.
+No two elements on a page may have the same id.
+Each element may have only one id.
+
+If you were to mark up everyone in the class as elements,
+you might assign everyone a class of "person",
+and each would be assigned an id that identified them uniquely.
+Id's may be people's names or social security numbers.
+
+
+CSS
+===
+
+We reviewed that CSS documents are composed of rules.
+Rules consist of selectors, and properties set to values.
+
+Here's and example of a CSS rule:
+
+p {
+  font-faily: Helvetica;
+}
+
+This..........................is the rule's:
+p               selector
+font-faily      property
+Helvetica       value
+
+Selectors
+=======
+
+Use selectors to choose elements on a page to style.
+We reviewed selecting element's by tag name, class, and id.
+
+Properties
+=======
+
+Properties change the appearance of elements.
+They end in semi-colons. 
+
+
+We covered even more. Can you think of things I didn't cover here?
+Maybe I'll have time to complete the list.
+
+Good luck.
+–Sean
