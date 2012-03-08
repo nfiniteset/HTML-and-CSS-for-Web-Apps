@@ -5,99 +5,99 @@
   	<title>Page Title</title>
   	
   	<script type="text/javascript" src="application.js"></script>
-  	<link href="application.css" media="screen" rel="stylesheet" type="text/css" />
+  	<link href="style.css" media="screen" rel="stylesheet" type="text/css" />
   	
   </head>
   <body>
   
-    <div class="header">
-    	<h2 class="brand">Suggest-o-tron</h1>
-    	<ul class="app-nav">
-        <li><a href="#">Suggestions</a></li>
-        <li><a href="#">Support</a></li>
-        <li><a href="#">Blog</a></li>
-    	</ul>
-    	<div class="menu">
-        <a class="">sean@sfrubyists.org</a>
-        <ul>
-          <li><a href="#">Invite a friend</a></li>
-          <li><a href="#">Account</a></li>
-          <li><a href="#">Sign out</a></li>
-        </ul>
-    	</div>
+  <div class="header">
+  	<h2 class="brand">Suggest-o-tron</h1>
+  	<ul class="app-nav">
+      <li><a href="#">Suggestions</a></li>
+      <li><a href="#">Support</a></li>
+      <li><a href="#">Blog</a></li>
+  	</ul>
+  	<div class="menu">
+      <a class="">sean@sfrubyists.org</a>
+      <ul>
+        <li><a href="#">Invite a friend</a></li>
+        <li><a href="#">Account</a></li>
+        <li><a href="#">Sign out</a></li>
+      </ul>
+  	</div>
+  </div>
+  
+    <h1 class="org-name">SF Rubyists' Topics</h1>
+  
+    <ul class="org-nav">
+      <li class="selected"><a href="#">Topics</a></li>
+      <li class="selected"><a href="#">Past topics</a></li>
+      <li class="selected"><a href="#">Members</a></li>
+    </ul>
+    
+    <div class="topics">
+      <ul>
+        <li class="topic">
+          <p class="vote-tally">102</p>
+          <input type="submit" value="Vote" />
+          <p class="topic-title">Contributing to open source software</p>
+        </li>
+        <li class="topic">
+          <p class="vote-tally">87</p>
+          <input type="submit" value="Vote" />
+          <p class="topic-title">Testing Backbone.js</p>
+        </li>
+        <li class="topic">
+          <p class="vote-tally">76</p>
+          <input type="submit" value="Vote" />
+          <p class="topic-title">An introduction to Ember.js</p>
+        </li>
+        <li class="topic">
+          <p class="vote-tally">43</p>
+          <input type="submit" value="Vote" />
+          <p class="topic-title">Best practices for pair programming</p>
+        </li>
+      </ul>
+      <form id="suggest-topic">
+        <input type="text" placeholder="Suggest a topic">
+        <input type="submit" value="Send">
+      </form>
     </div>
     
-    <div class="content">
-      <h1 class="org-name">SF Rubyists' Topics</h1>
-    
-      <ul class="org-nav">
-        <li class="selected"><a href="#">Topics</a></li>
-        <li class="selected"><a href="#">Past topics</a></li>
-        <li class="selected"><a href="#">Members</a></li>
+    <div class="sidebar">
+      <ul class="social-links">
+        <li>
+          <p>Let's stay in touch</p>
+          <form id="join-email-list">
+            <input type="email" placeholder="Email">
+            <input type="submit" value="Join"
+          </form>
+        </li>
+        <li>
+          <a href="#">Like us on Facebook</a>
+        </li>
+        <li>
+          <a href="#">Follow us on Twitter</a>
+        </li>
       </ul>
       
-      <div class="topics">
-        <ul>
-          <li class="topic">
-            <p class="vote-tally">102</p>
-            <input type="submit" />
-            <p class="vote-title">Contributing to open source software</p>
-          </li>
-          <li class="topic">
-            <p class="vote-tally">87</p>
-            <input type="submit" />
-            <p class="vote-title">Testing Backbone.js</p>
-          </li>
-          <li class="topic">
-            <p class="vote-tally">76</p>
-            <input type="submit" />
-            <p class="vote-title">An introduction to Ember.js</p>
-          </li>
-          <li class="topic">
-            <p class="vote-tally">43</p>
-            <input type="submit" />
-            <p class="vote-title">Best practices for pair programming</p>
-          </li>
-        </ul>
-        <form id="suggest-topic">
-          <input type="text" placeholder="Suggest a topic">
-          <input type="submit" value="Send">
-        </form>
-      </div>
-      
-      <div class="sidebar">
-        <ul class="social-links">
-          <li>
-            <p>Let's stay in touch</p>
-            <form id="join-email-list">
-              <input type="email" placeholder="Email">
-              <input type="submit" value="Join"
-            </form>
-          </li>
-          <li>
-            <a href="#">Like us on Facebook</a>
-          </li>
-          <li>
-            <a href="#">Follow us on Twitter</a>
-          </li>
-        </ul>
-      </div>
       <div class="job-links">
         <h3>Suggestioneers needed!</h3>
-        <p>Sugget-o-tron is growing pretty quickly thse days. We’re looking for some smart, fun people, who do really great work.</p>
+        <p>Sugget-o-tron is growing pretty quickly thse days. We&#8217;re looking for some smart, fun people, who do really great work.</p>
         <p>We encourage a healthy work-life balance and pay market-rate salaries.</p>
-        <p>Some positions we are ooking to fill:</p>
+        <p>Some positions we are looking to fill:</p>
         <ul>
-          <li>Designer with front-end skills</li>
-          <li>Senior front-end engineer</li>
-          <li>Javascript ninja</li>
-          <li>Senior Rails developer</li>
+          <li><a href="#">Designer with front-end skills</a></li>
+          <li><a href="#">Senior front-end engineer</a></li>
+          <li><a href="#">Javascript ninja</a></li>
+          <li><a href="#">Senior Rails developer</a></li>
         </ul>
       </div>
+      
     </div>
     
     <div class="footer">
-      <p class="copyright">&copy; Copyright 2005–2012 Suggest-o-tron Inc.</p>
+      <p class="copyright">&copy; Copyright 2005&#8211;2012 Suggest-o-tron Inc.</p>
       <a class="footer-link">Privacy policy</a>
       <a class="footer-link">Terms of use</a>      
     </div>

@@ -1,0 +1,98 @@
+/* Resets */
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Global styles */
+
+body {
+  padding: 0 10px;
+  width: 940px;
+}
+
+
+/* Typography */
+
+body {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.topic-title {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.job-links {
+  font-size: 9px;
+  line-height: 13px;
+}
+
+
+/* Header */
+
+.header {
+  background-color: #fee;
+}
+
+.brand {
+  font-size: 18px;
+}
+
+
+/* Content */
+
+.org-name {
+
+}
+
+.org-nav {
+  float: left;
+  width: 160px;
+  margin-right: 20px;
+
+  background-color: #ffe;
+}
+
+.topics {
+  float: left;
+  width: 520px;
+  margin-right: 20px;
+
+  background-color: #efe;
+}
+
+.sidebar {
+  float: left;
+  width: 220px;
+
+  background-color: #eff;
+}
+
+
+/* Footer */
+
+.footer {
+  clear: left;
+  background-color: #eef;
+}
+
+
+/* Modal */
+
+.modal, .menu {
+  display: none;
+}
