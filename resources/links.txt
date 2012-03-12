@@ -1,3 +1,6 @@
+Links
+=====
+
 Opera Web Standards Curriculum
 http://www.opera.com/company/education/curriculum/
 
@@ -6,3 +9,11 @@ http://www.ampsoft.net/webdesign-l/WindowsMacFonts.html
 
 Subtle Patterns
 http://subtlepatterns.com/
+
+
+
+Books
+=====
+
+Designing with Web Standards
+http://www.amazon.com/Designing-Web-Standards-3rd-Edition/dp/0321616952/ref=sr_1_1?ie=UTF8&qid=1331413734&sr=8-1

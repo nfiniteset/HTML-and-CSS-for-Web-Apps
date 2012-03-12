@@ -1,0 +1,33 @@
+CSS for Web Apps
+================
+
+Class 2
+-------
+  
+Preview
+  - Layout models
+    - Display Block and Inline
+    - Float and Clear
+    - Position Static, Absolute, Relative, and Fixed
+    - Making things disappear
+  - A hint of JavaScript
+  
+Review
+  - HTML
+    - lists
+    
+  - CSS
+    - nested selectors
+    - specificity
+
+Display block and inline
+
+Float and Clear
+  
+Suggest-o-tron
+  - Talk through markup
+  - Table markup
+  - Float layout together
+  
+Homework
+  - Style Suggest-o-tron

@@ -1,0 +1,14 @@
+nested selector puzzle
+
+
+shapes,
+colors,
+patterns,
+regions,
+
+
+
+1. Highlight triangles
+2. Highlight triangles and striped shapes
+3. Highlight only stripped triangles
+4. Highlight

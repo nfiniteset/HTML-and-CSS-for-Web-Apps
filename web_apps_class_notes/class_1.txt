@@ -16,7 +16,7 @@ Preview
     - Display Block, Inline, and None
     - Float and Clear
     - Position Static, Absolute, Relative, and Fixed
-    - Making things dissapear
+    - Making things disappear
   - A hint of JavaScript
   
 Review
