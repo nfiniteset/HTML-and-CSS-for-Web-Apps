@@ -12,6 +12,10 @@ Preview
     - Making things disappear
   - A hint of JavaScript
   
+Homework review
+  - Get stuck anywhere?
+  - Anything unclear?
+  
 Review
   - HTML
     - lists
@@ -20,9 +24,12 @@ Review
     - nested selectors
     - specificity
 
-Display block and inline
-
 Float and Clear
+
+Display block and inline
+ - Bibliography
+   - Nested selectors
+   - Display block and inline
   
 Suggest-o-tron
   - Talk through markup

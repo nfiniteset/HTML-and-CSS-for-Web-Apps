@@ -1,0 +1,41 @@
+/* Global styles */
+
+body {
+  
+}
+
+
+/* Header */
+
+.header {
+  background-color: #fee;
+}
+
+
+/* Content */
+
+.org-nav {
+  background-color: #ffe;
+}
+
+.topics {
+  background-color: #efe;
+}
+
+.sidebar {
+  background-color: #eff;
+}
+
+
+/* Footer */
+
+.footer {
+  background-color: #eef;
+}
+
+
+/* Modal */
+
+.modal, .menu {
+  display: none;
+}

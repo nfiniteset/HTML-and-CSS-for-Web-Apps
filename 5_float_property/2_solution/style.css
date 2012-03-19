@@ -14,13 +14,114 @@ Use only height, width, float, and clear properties to create each layout.
   float: left, right, or none
   clear: left, right, or none
 
-
-
 */
 
-#layout-1 .section-1 {
+#layout-3 .section-2 {
+  float: left;
+  height: 200px;
+  width: 100px;  
+}
+#layout-3 .section-3 {
+  height: 200px;
 
 }
-#layout-1 .section-2 {
+
+
+#layout-4 .section-2 {
+  float: left;
+  width: 200px;
+}
+#layout-4 .section-3 {
+
+}
+#layout-4 .section-4 {
+
+}
+
+#layout-5 .section-2 {
+  float: left;
+  height: 200px;
+  width: 100px;
+}
+#layout-5 .section-3 {
+
+}
+#layout-5 .section-4 {
+
+}
+
+
+#layout-6 .section-2 {
+  float: left;
+  height: 200px;
+  width: 100px;
+}
+#layout-6 .section-3 {
+  width: 100px;
+  height: 200px;
+  float: right;
+}
+#layout-6 .section-4 {
+
+}
+
+
+#layout-7 .section-2 {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+#layout-7 .section-3 {
+  float: left;
+  width: 200px;
+}
+
+#layout-7 .section-4 {
+
+}
+
+
+
+#layout-8 .section-1 {
+  height: 300px;
+  width: 100px; 
+  float: left;
+}
+#layout-8 .section-2 {
+
+}
+#layout-8 .section-3 {
+  height: 200px;
+  width: 100px;
+  float: left;
+}
+#layout-8 .section-5 {
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+
+
+#layout-9 .section-1 {
+  height: 300px;
+  width: 100px;
+  float: right;
+}
+#layout-9 .section-2 {
+
+}
+#layout-9 .section-3 {
+  height: 200px;
+  width: 100px;
+  float: left;
+}
+#layout-9 .section-4 {
+  width: 100px;
+  height: 200px;
+  float: right;
+}
+#layout-9 .section-5 {
 
 }
