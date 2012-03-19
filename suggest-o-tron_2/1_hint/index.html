@@ -11,9 +11,10 @@
   <body>
   
   <div class="header">
+    <div class="header-fill"></div>
   	<h2 class="brand">Suggest-o-tron</h1>
   	<ul class="app-nav">
-      <li><a href="#">Home</a></li>
+      <li class="selected"><a href="#">Home</a></li>
       <li><a href="#">Support</a></li>
       <li><a href="#">Blog</a></li>
   	</ul>
@@ -37,12 +38,6 @@
     
     <div class="topics">
       <table>
-        <thead>
-          <tr>
-            <td>votes</td>
-            <td>suggestion</td>
-          </tr>
-        </thead>
         <tbody>
           <tr class="topic">
             <td class="votes">
@@ -66,7 +61,7 @@
             <td class="topic-title">An introduction to Ember.js</td>
           </tr>
           <tr class="topic">
-            <td>
+            <td class="votes">
               <p class="vote-tally">43</p>
               <input type="submit" value="Vote" />
             </td>
@@ -120,6 +115,7 @@
     </div>
     
     <div class="footer">
+      <div class="footer-fill"></div>
       <p class="copyright">&copy; Copyright 2005&#8211;2012 Suggest-o-tron Inc.</p>
       <a class="footer-link" href="#">Privacy policy</a>
       <a class="footer-link" href="#">Terms of use</a>      

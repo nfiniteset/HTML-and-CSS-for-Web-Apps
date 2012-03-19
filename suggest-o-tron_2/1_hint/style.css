@@ -2,7 +2,7 @@
 
 body {
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 48px 10px 25px 10px;
   width: 940px;
 }
 
@@ -43,6 +43,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.selected {
+  font-weight: bold;
+}
+
 
 
 
@@ -52,6 +56,10 @@ a:hover {
 /* Header */
 
 .header {
+  position: fixed;
+  top: 0;
+  width: 940px;
+  
   background-color: #fee;
   overflow: hidden;
 }
@@ -72,10 +80,6 @@ a:hover {
   float: left;
   width: 160px;
   margin-right: 20px;
-}
-
-.org-nav .selected {
-  font-weight: bold;
 }
 
 .topics {
@@ -115,6 +119,17 @@ a:hover {
   font-size: 18px;
 }
 
+.header-fill {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  height: 48px;
+  left: 0;
+  right: 0;
+  
+  background-color: #333;
+}
+
 .brand {
   width: 160px;
   margin: 0;
@@ -123,8 +138,7 @@ a:hover {
 
 .header a {
   color: white;
-  text-decoration: none;
-  font-weight: 300;
+  text-decoration: none;  
 }
 
 
@@ -167,10 +181,6 @@ a:hover {
   font-size: 27px;
   font-weight: bold;
   line-height: 36px;
-}
-
-.topics thead {
-  font-size: 9px;
 }
 
 .votes {
@@ -218,13 +228,27 @@ a:hover {
 
 /* Footer */
 .footer {
+  position: fixed;
+  bottom: 0;
   height: 25px;
+  width: 940px;
 
   background-color: #333;
   color: white;
 
   font-size: 9px;
   line-height: 25px;
+}
+
+.footer-fill {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 25px;
+  z-index: -1;
+  
+  background-color: #333;
 }
 
 .footer .copyright {
