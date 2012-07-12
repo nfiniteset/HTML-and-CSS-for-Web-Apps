@@ -1,0 +1,44 @@
+h1 {
+  
+}
+
+.burger {
+  width: 200px;
+  list-style: none;
+}
+
+.bun {
+  background-color: tan;
+}
+
+.bun.top {
+  height: 40px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.bun.bottom {
+  height: 20px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.cheese {
+  background-color: orange;
+  height: 10px;
+}
+
+.lettuce {
+  background-color: green;
+  height: 10px;
+}
+
+.meat {
+  background-color: #723209;
+  height: 30px;
+  border-radius: 10px;
+}
