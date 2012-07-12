@@ -1,0 +1,170 @@
+body {
+  width: 920px;
+  margin: 100px auto;
+  
+  background: url(images/vintage_speckles.png);
+  color: #555;
+  
+  font-family: Palatino, Palatino Linotype, Book Antiqua, serif;
+}
+
+/* Page title */
+
+h1 {
+  height: 100px;
+  font-size: 70px;
+  margin: 0 0 100px -30px;
+}
+
+.headline-word {
+  float: left;
+  display: block;
+  padding: 20px;
+  margin: 2px;
+  
+  border: 5px solid white;
+  box-shadow: 0 1px 5px rgba(0,0,0,.4);
+  text-shadow: 
+    0 -1px 1px rgba(255,255,255,0.2),
+    0 1px 0 rgba(0,0,0,.2);
+}
+
+.headline-floating {
+  background-color: #65a147; /* green */
+  color: #efffe6; /* light green */
+  -webkit-transform:rotate(-3deg) translateY(-50px);
+}
+
+.headline-block {
+  background-color: #c8427c; /* pink */
+  color: #ffe6f3; /* light pink */
+  -webkit-transform:rotate(3deg) translateX(-2px) translateY(-20px);
+}
+
+.headline-layouts {
+  background-color: #74307a; /* purple */
+  color: #fce6ff; /* light purple */
+}
+
+/* layout headings */
+
+h2 {
+  clear: left;  
+  padding-bottom: 15px;
+  margin: 20px 5px;
+  
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  
+  line-height: 20px;
+}
+
+h2:after {
+  display: block;
+  content: "Solution";
+  float: right;
+  color: rgba(0,0,0,.3);
+  font-weight: normal;
+}
+
+.layout-set {
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+
+/* layouts and solutions */
+
+.layout {
+  float: left;
+  margin-right: 100px;
+  width: 500px;
+  height: 500px;
+  
+  background: url(images/irongrip.png);
+}
+
+img {
+  opacity: .7;
+}
+
+.layout, 
+img {
+  border: 5px solid white;
+  background-color: white;
+  box-shadow: 
+    0 1px 5px rgba(0,0,0,.4),
+    inset 0 0 5px rgba(0,0,0,.9);
+}
+
+
+/* sections */
+
+.section {
+  background-image: url(images/grid.png);
+  background-position: -1px -1px;
+  height: 100px;
+}
+
+.section:after {
+  display: block;
+  position: relative;
+  left: 35px;
+  
+  text-shadow: 
+    0 1px 1px rgba(255,255,255,0.2),
+    0 -1px 0 rgba(0,0,0,.2);
+  
+  font-size: 50px;
+  line-height: 100px;
+  font-weight: bold;
+}
+
+
+.section-1 {
+  background-color: #739998; /* dark blue */
+}
+
+.section-1 .level-2 {
+  background-color: #85B3B5; /* dim blue */
+}
+
+.section-1 .level-3 {
+  background-color: #94c7d0; /* blue */
+}
+
+.section-2 {
+  background-color: #c6d20a; /* lime */
+  color: #b3b70b; /* dim lime */
+}
+
+.section-3 {
+  background-color: #c5583c; /* red */
+  color: #aa4935; /* dim red */
+}
+
+.section-4 {
+  background-color: #ebcf35; /* yellow */
+  color: #d1b230; /* dim yellow */
+}
+
+.section-5 {
+  background-color: #65a147; /* green */
+  color: #58873D; /* dim green */
+}
+
+.section-6 {
+  background-color: #74307a; /* purple */
+  color: #58265e; /* dim purple */
+}
+
+
+
+.level-1 {
+}
+
+.level-2 {
+}
+
+.level-3 {
+
+}

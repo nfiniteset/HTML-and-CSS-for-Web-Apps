@@ -13,29 +13,6 @@ ul {
 }
 
 
-/* Typography */
-
-body {
-  //font-size: 18px;
-  //line-height: 27px;
-  //font-family: Helvetica, sans-serif;
-}
-
-h1 {
-  //font-size: 36px;
-}
-
-.topic-title {
-  //font-size: 27px;
-  //font-weight: bold;
-}
-
-.job-links {
-  //font-size: 9px;
-  //line-height: 13px;
-}
-
-
 /* Header */
 
 .header {
@@ -43,7 +20,30 @@ h1 {
 }
 
 .brand {
-  //font-size: 18px;
+  font-size: 18px;
+}
+
+
+/* Typography */
+
+body {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.topic-title {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.job-links {
+  font-size: 9px;
+  line-height: 13px;
 }
 
 

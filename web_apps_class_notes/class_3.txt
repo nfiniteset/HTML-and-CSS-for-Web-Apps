@@ -13,8 +13,9 @@ Preview
   - A hint of JavaScript
   
 Homework review
-  - Get stuck anywhere?
-  - Anything unclear?
+  - What surprised you?
+  - How far did you get?
+  - Where did you get stuck?
   
 Review
   - HTML
@@ -23,18 +24,12 @@ Review
   - CSS
     - nested selectors
     - specificity
-
-Float and Clear
-
-Display block and inline
- - Bibliography
-   - Nested selectors
-   - Display block and inline
   
-Suggest-o-tron
-  - Talk through markup
-  - Table markup
-  - Float layout together
+Position
+  - Static
+  - Absolute
+  - Fixed
+  - Relative
   
 Homework
   - Style Suggest-o-tron

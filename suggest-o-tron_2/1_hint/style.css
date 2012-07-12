@@ -1,0 +1,262 @@
+/* ------- Global styles ------- */
+
+body {
+  margin: 0 auto;
+  padding: 48px 10px 25px 10px;
+  width: 940px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+/* Typography */
+
+body {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 27px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+a {
+  color: #AD3B71;
+}
+
+a:hover {
+  color: #C8427C;
+  text-decoration: underline;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* ------- Layout ------- */
+/* Header */
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 940px;
+  
+  background-color: #fee;
+  overflow: hidden;
+}
+
+.brand {
+  float: left;
+  font-size: 18px;
+}
+
+
+/* Content */
+
+.org-name {
+
+}
+
+.org-nav {
+  float: left;
+  width: 160px;
+  margin-right: 20px;
+}
+
+.topics {
+  float: left;
+  width: 520px;
+  margin-right: 20px;
+}
+
+.sidebar {
+  float: left;
+  width: 220px;
+}
+
+
+/* Footer */
+
+.footer {
+  clear: left;
+}
+
+
+/* Modal */
+
+.modal, .menu {
+  display: none;
+}
+
+
+
+/* -------- Decoration -------- */
+
+/* Header */
+.header {
+  background-color: #333;
+  color: white;
+  
+  font-size: 18px;
+}
+
+.header-fill {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  height: 48px;
+  left: 0;
+  right: 0;
+  
+  background-color: #333;
+}
+
+.brand {
+  width: 160px;
+  margin: 0;
+  line-height: 48px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;  
+}
+
+
+/* Nav */
+.app-nav li {
+  float: left;
+  padding: 0 20px;
+  
+  line-height: 48px;
+}
+
+
+/* Org title */
+.org-title {
+  padding-left: 180px;
+}
+
+
+/* --- Content --- */
+.org-nav,
+.topics,
+.sidebar {
+  border-top: 1px solid black;
+}
+
+/* Org nav */
+.org-nav li {
+  margin-bottom: 9px;
+}
+
+.org-nav a {
+  text-decoration: none;
+}
+
+
+/* Topics */
+.topic-title {
+  width: 400px;
+  
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.votes {
+  width: 120px;
+  
+  vertical-align: top;
+}
+
+.vote-tally {
+  margin: 0 10px 0 0;
+  float: left;
+  width: 55px;
+  
+  color: #666;
+  
+  text-align: right;
+  font-size: 27px;
+}
+
+#suggest-topic {
+  padding-left: 120px;
+}
+
+
+/* Sidebar */
+.social-links {
+  margin-bottom: 18px;
+}
+
+.social-links p {
+  margin: 0;
+}
+
+.social-links li {
+  margin-bottom: 9px;
+}
+
+.job-links {
+  border-top: 1px solid black;
+  
+  font-size: 9px;
+  line-height: 13px;
+}
+
+
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 25px;
+  width: 940px;
+
+  background-color: #333;
+  color: white;
+
+  font-size: 9px;
+  line-height: 25px;
+}
+
+.footer-fill {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 25px;
+  z-index: -1;
+  
+  background-color: #333;
+}
+
+.footer .copyright {
+  float: left;
+  margin: 0;
+}
+
+.footer .footer-link {
+  float: right;
+  padding-left: 10px;
+}

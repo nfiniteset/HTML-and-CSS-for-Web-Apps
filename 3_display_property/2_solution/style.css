@@ -1,3 +1,5 @@
+
+
 /* Page layout and style */
 
 body {
@@ -26,24 +28,10 @@ body {
   line-height: 24px;
 }
 
-h1, .source {
+h1, 
+.source {
   font-size: 16px;
   margin-bottom: 24px;
-}
-
-
-/* MLA styling */
-
-.title {
-  font-weight: bold;
-}
-
-.book .title {
-  text-decoration: underline;
-}
-
-.article .title {
-  font-style: oblique;
 }
 
 
@@ -57,29 +45,23 @@ span:hover {
   background-color: #cfc;
 }
 
-.author,
-.title {
+
+
+.book .title {
+  text-decoration: underline;
+}
+
+.article .title {
+  font-style: oblique;
+  margin-left: -9px;
+}
+
+.author {
   display: block;
 }
 
-
-/* Final touches */
-
-.article .title {
-  margin-left: -10px;
+.title {
+  display: block;
+  font-weight: bold;
 }
 
-.detail {
-  color: #999;
-}
-
-
-/* display: none experiments */
-
-.detail {
-  //display: none;
-}
-
-.source:hover .detail {
-  //display: inline;
-}

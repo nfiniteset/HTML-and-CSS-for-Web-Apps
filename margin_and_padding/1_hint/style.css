@@ -1,0 +1,43 @@
+/* layout 1 */
+#layout-1 .section-1 {
+  margin-top: 100px;
+}
+
+
+
+/* layout 2 */
+#layout-2 .section-1,
+#layout-2 .section-2 {
+  margin-top: 100px;
+}
+
+
+/* layout 3 */
+#layout-3 .section {
+  margin-bottom: 100px;
+}
+
+
+/* layout 4 */
+#layout-4 .section-1 {
+  margin-top: 100px;
+  padding-top: 100px;
+}
+
+
+/* layout 5 */
+#layout-5 .section-1 {
+  margin: 100px 0;
+  padding-top: 100px;
+}
+
+
+/* layout 6 */
+#layout-6 .section-1 {
+  margin-top: 200px;
+}
+
+#layout-6 .level-1,
+#layout-6 .level-2 {
+  padding-top: 100px;
+}
